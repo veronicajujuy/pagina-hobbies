@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    /*font-family: 'Pacifico', cursive;*/
+}
+
+nav {
+    background-color: #505050;
+    height: 50px;
+}
+.container-nav{
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
+.lista-nav{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.lista-nav > a {
+    color:aliceblue;
+    text-decoration:none;
+}
+
+.header1 {
+    background-image: url("./../img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00bff3;
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header2 {
+    background-image: url("./../img/ground.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #00bff3;
+    /* width:100%;
+    height: 100px; */
+}
+
+.titulo {
+    text-decoration: underline wavy rgb(255, 255, 255);
+    text-decoration-color: #919191;
+    color:aliceblue;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#series{
+    background-color: #fcd203;
+    height: 550px;
+}
+
+.section-title {
+    text-decoration: underline wavy rgb(255, 255, 255);
+    text-decoration-color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+.section-p{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.lista-series {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 350px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.card-top {
+    height: 25px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
+.card-bottom{
+    padding: 10px 15px 0px 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.card-imagen{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#bandas{
+    background-color: #45dd4f;
+    height: 550px;
+}
+
+#libros{
+    background-color: #cb5397;
+    height: 350px;
+}
+
+.lista-libros{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 150px;
+    width: 80%;
+}
+
+.lista-item {
+    list-style: none;
+}
+
+.lista-item >a {
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+i {
+    color:#ffffff;
+}
+
+footer {
+    background-color: #505050;
+    height: 50px;
+}
+
+.footer-text {
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: right;
+    color:aliceblue;
+}

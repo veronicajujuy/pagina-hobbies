@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <script src="https://kit.fontawesome.com/8cb75f4971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+            <nav>
+                <ul class="container-nav">
+                    <!-- referencias a un id -->
+                    <li class="lista-nav"><a href="#series">Series</a></li>
+                    <li class="lista-nav"><a  href="#bandas">Bandas</a></li>
+                    <li class="lista-nav"><a  href="#libros">Libros</a></li>
+                </ul>
+            </nav>
+        <div class="header2">
+            <div class="header1">
+                <h1 class="titulo">Pagina de Series, Bandas y Libros Favoritos </h1>
+            </div>
+        </div>
+        
+    </header>
+
+    <section id="series">
+        <h1 class="section-title">Series</h1>
+        <p class="section-p">Este es un listado de mis series favoritas</p>
+        <ol class="lista-series">
+            <!-- Imagenes de recursos propios -->
+            <div class="card">
+                <li class="card-top">Grey's Anatomy</li>
+                <div class="card-bottom">
+                    <img class="card-imagen" src="./img/greys.jpg" alt="Grey's Anatomy">    
+                </div>
+            </div>
+            <div class="card">
+                <li class="card-top">Breaking Bad</li>
+                <div class="card-bottom">
+                    <img class="card-imagen" src="./img/breaking.jpg" alt="Breaking Bad">
+                </div>
+                
+            </div>
+            <div class="card">
+                <li class="card-top">American Horror Story</li>
+                <div class="card-bottom">
+                    <img class="card-imagen" src="./img/american.png" alt="American Horror Story">
+                </div>
+            </div>
+        </ol>
+
+    </section>
+    <section id="bandas">
+        <h1 class="section-title">Bandas</h1>
+        <p class="section-p">Este es un listado de mis bandas favoritas</p>
+        <ol class="lista-series">
+            <div class="card">
+                <li class="card-top">Zayn</li>
+                <!-- links a paginas externas de imagenes -->
+                <div class="card-bottom">
+                    <img class="card-imagen"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zayn_Wiki_%28cropped%29.jpg/800px-Zayn_Wiki_%28cropped%29.jpg"
+                    alt="Zayn">
+                </div>
+            </div>
+            <div class="card">
+                <li class="card-top">Tove Lo</li>
+                <div class="card-bottom">
+                    <img class="card-imagen"
+                    src="https://www.chicagotribune.com/resizer/0K0USM5P_RcnazMgyjb3dejIz0M=/415x310/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/GQAA5KE25BEWFH2BCCJQ3D5KTE.jpg"
+                    alt="Tove Lo">
+                </div>
+            </div>
+            <div class="card">
+                <li class="card-top">Camila Cabello</li>
+                <div class="card-bottom">
+                    <img class="card-imagen"
+                    src="https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/10/23/Recortada/img_csierra_20190826-134928_imagenes_lv_otras_fuentes_camila_4_6_4262013878-kVQF-U484233241272WfH-992x558@LaVanguardia-Web.jpg"
+                    alt="Camila Cabello">
+                </div>
+            </div>
+        </ol>
+
+    </section>
+    <section id="libros">
+        <h1 class="section-title">Libros</h1>
+        <p class="section-p">Este es un listado de mis libros favoritos</p>
+        <ol class="lista-libros">
+            <!-- links externos -->
+            
+            <li class="lista-item"><i class="fa-solid fa-swatchbook fa-2x"></i><a href="https://www.cuspide.com/Libro/9789500762243/Arde+La+Vida">Arde La vida - Magalí tajes</a></li>
+            <li class="lista-item"><i class="fa-solid fa-swatchbook fa-2x"></i><a href="https://www.cuspide.com/Libro/9789878000107/1++Harry+Potter+Y+La+Piedra+Filosofal">Harry Potter
+                    y la Piedra Filosofal - JK Rowling</a></li>
+            <li class="lista-item"><i class="fa-solid fa-swatchbook fa-2x"></i><a href="https://www.cuspide.com/Libro/9789871857661/Dise%c3%b1o+Web+Con+Html+++Css">Diseño Web con HTML
+                    y CSS - Gustavo Caballero</a></li>
+        </ol>
+    </section>
+
+    <footer>
+        <h4 class="footer-text">Todos los derechos reservados @2021 </h4>
+    </footer>
+
+</body>
+
+</html>
